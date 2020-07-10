@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="google-tests">
+    <test name="google-test-chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="chromeTests.StandaloneTest" />
+        </classes>
+    </test>
+</suite>
